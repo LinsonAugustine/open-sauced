@@ -7,8 +7,14 @@ on:
       - edited
       - synchronize
       - reopened
+    paths-ignore:
+      - '**/README.md'
   push:
+    paths-ignore:
+      - '**/README.md'
   workflow_call:
+    paths-ignore:
+      - '**/README.md'
 
 jobs:
   test:
