@@ -47,5 +47,8 @@ jobs:
         with:
           node-version: 16
 
+      - name: "Install eslint"          # Add this step
+        run: npm install -D eslint
+
       - name: "Lint code"
         run: npm run lint --if-present
