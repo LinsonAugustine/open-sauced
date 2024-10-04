@@ -13,8 +13,6 @@ on:
     paths-ignore:
       - '**/README.md'
   workflow_call:
-    paths-ignore:
-      - '**/README.md'
 
 jobs:
   test:
